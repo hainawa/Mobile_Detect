@@ -6,16 +6,17 @@ http://www.opensource.org/licenses/mit-license.php The MIT License
 
 ##PHP usage
 
-instantiate like so:
+instantiate like so:  
 	$mobileDetect = new Mobile_Detect();
 
-checks for truthiness
+checks for truthiness  
 	if ($mobileDetect->isAndroid) { do some stuff... }
 	
 ##Ruby usage
-
-instantiate like so:
+_Note: You will need to pass the request object when initialized_
+ 
+instantiate like so:  
 	mobileDetect = MobileDetect.new(request)
 
-checks for truthiness
+checks for truthiness  
 	if mobileDetect.isIphone { do some stuff... }
